@@ -19,7 +19,7 @@ import {
 
 const { width, height } = Dimensions.get('window');
 
-const SERVER_URL = 'http://192.168.1.9:3000';
+const SERVER_URL = 'https://cassavia.onrender.com';
 
 export default function FieldMeasurementScreen() {
   const [showIntro, setShowIntro] = useState(true);
